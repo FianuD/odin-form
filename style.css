@@ -3,24 +3,28 @@
   src: url(../odin-form/fonts/Norse-Bold.otf);
 }
 
-h1 {
-  font-family: Norse-Bold, sans-serif;
+body {
+  margin: 0;
+  padding: 0;
 }
 
 .main {
   display: flex;
   flex-direction: row;
   width: 100vw;
+  height: 100vh;
 }
 
 .left {
-  display: flex;
-  justify-content: center;
-  width: 50vw;
+  background-image: url('./images/halie-west-25xggax4bSA-unsplash.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 35vw;
+  color: white;
+  font-family: Norse-Bold, sans-serif;
 }
 
 .right {
   display: flex;
   justify-content: center;
-  width: 50vw;
 }
